@@ -19,16 +19,18 @@ public class Participante implements Serializable {
     String apellido;
     String nombre;
     String localidad;
+    String provincia;
     int edad;
 
     public Participante() {
     }
 
-    public Participante(int id_participante, String apellido, String nombre, String localidad, int edad) {
+    public Participante(int id_participante, String apellido, String nombre, String localidad, String provincia int edad) {
         this.id_participante = id_participante;
         this.apellido = apellido;
         this.nombre = nombre;
         this.localidad = localidad;
+        this.provincia = provincia;
         this.edad = edad;
     }
 
@@ -62,6 +64,14 @@ public class Participante implements Serializable {
 
     public void setLocalidad(String localidad) {
         this.localidad = localidad;
+    }
+
+      public String getProvincia() {
+        return provincia;
+    }
+
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
     }
 
     public int getEdad() {
