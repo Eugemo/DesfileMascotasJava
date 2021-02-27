@@ -32,9 +32,11 @@ public class InscripParticipante extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         txtNombre = new javax.swing.JTextField();
         txtApellido = new javax.swing.JTextField();
         txtLocalidad = new javax.swing.JTextField();
+        txtProvincia = new javax.swing.JTextField();
         txtEdad = new javax.swing.JTextField();
         btnInscribir = new javax.swing.JButton();
         btnSalir = new javax.swing.JButton();
@@ -56,13 +58,18 @@ public class InscripParticipante extends javax.swing.JFrame {
         jLabel4.setText("Localidad");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel5.setText("Edad");
+        jLabel5.setText("Provincia");
+
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel6.setText("Edad");
 
         txtNombre.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         txtApellido.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         txtLocalidad.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+	
+        txtProvincia.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         txtEdad.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
